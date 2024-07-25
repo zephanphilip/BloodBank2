@@ -57,6 +57,24 @@ const Signup = () => {
                             </Typography>
                         </Box>
                         <Box component="form" onSubmit={handleSubmit} sx={{ mt: 3 }}>
+                        <TextField
+                            required
+                            fullWidth
+                            label="First Name"
+                            type="text"
+                            margin="normal"
+                            variant="outlined"
+                            sx={{ mb: 2 }}
+                        />
+                        <TextField
+                            required
+                            fullWidth
+                            label="Last Name"
+                            type="text"
+                            margin="normal"
+                            variant="outlined"
+                            sx={{ mb: 2 }}
+                        />
                             <TextField
                                 required
                                 fullWidth
